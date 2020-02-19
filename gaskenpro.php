@@ -1,2 +1,259 @@
 <?php
-JHNlY3JldCA9ICc4MzQxNWQwNi1lYzRlLTExZTYtYTQxYi02YzQwMDg4YWI1MWUnOwokaGVhZGVycyA9IGFycmF5KCk7CiRoZWFkZXJzW10gPSAnQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uJzsKJGhlYWRlcnNbXSA9ICdYLUFwcFZlcnNpb246IDMuMjcuMCc7CiRoZWFkZXJzW10gPSAiWC1VbmlxdWVpZDogYWM5NGU1ZDBlN2YzZiIucmFuZCgxMTEsOTk5KTsKJGhlYWRlcnNbXSA9ICdYLUxvY2F0aW9uOiAtNi4yMjU5NzQsMTA2LjgwOTI0OCc7CgogICAgICAgIGVjaG8gIlxuIjsKICAgICAgICBlY2hvICJcZVs5Mm0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLVxuIjsKICAgICAgICBlY2hvICJcZVs5Mm18ICAgICAgICAgICAgICAgICAgTkRFTEVTRVAgVVlFRSAgICAgICAgICAgICAgICAgfFxuIjsKICAgICAgICBlY2hvICJcZVs5Mm18ICAgICAgICAgICAgS29tdW5pdGFzIEdPSkVLIFNBTUJBVCAgICAgICAgICAgICAgfFxuIjsKICAgICAgICBlY2hvICJcZVs5Mm18ICAgICAgICAgICAgICAgICAgUFJPIEFVVE9DTEFJTSAgICAgICAgICAgICAgICAgfFxuIjsKICAgICAgICBlY2hvICJcZVs5Mm0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLVxuIjsKICAgICAgICBlY2hvICJcbiI7CiAgICAgICAgdWxhbmc6CiAgICAgICAgZWNobyAiXGVbOTZtWytdIElucHV0IE5vbW9yIEhQIDogIjsKICAgICAgICAkbnVtYmVyID0gdHJpbShmZ2V0cyhTVERJTikpOwogICAgICAgICRudW1iZXJzID0gJG51bWJlclswXS4kbnVtYmVyWzFdOwogICAgICAgICRudW1iZXJ4ID0gJG51bWJlcls1XTsKICAgICAgICBpZigkbnVtYmVycyA9PSAiMDgiKSB7IAogICAgICAgICAgICAkbnVtYmVyID0gc3RyX3JlcGxhY2UoIjA4IiwiNjI4IiwkbnVtYmVyKTsKICAgICAgICB9IGVsc2VpZiAoJG51bWJlcnggPT0gIiAiKSB7CiAgICAgICAgICAgICRudW1iZXIgPSBwcmVnX3JlcGxhY2UoIi9bXjAtOV0vIiwgIiIsJG51bWJlcik7CiAgICAgICAgICAgICRudW1iZXIgPSAiMSIuJG51bWJlcjsKICAgICAgICB9CiAgICAgICAgJG5hbWEgPSBuYW1hKCk7CiAgICAgICAgJGVtYWlsID0gc3RydG9sb3dlcihzdHJfcmVwbGFjZSgiICIsICIiLCAkbmFtYSkgLiBtdF9yYW5kKDEwMCw5OTkpIC4gIkBnbWFpbC5jb20iKTsKICAgICAgICAkZGF0YTEgPSAneyJuYW1lIjoiJyAuICRuYW1hIC4gJyIsImVtYWlsIjoiJyAuICRlbWFpbCAuICciLCJwaG9uZSI6IisnIC4gJG51bWJlciAuICciLCJzaWduZWRfdXBfY291bnRyeSI6IklEIn0nOwogICAgICAgICRyZWcgPSBjdXJsKCdodHRwczovL2FwaS5nb2pla2FwaS5jb20vdjUvY3VzdG9tZXJzJywgJGRhdGExLCAkaGVhZGVycyk7CiAgICAgICAgJHJlZ3MgPSBqc29uX2RlY29kZSgkcmVnWzBdKTsKICAgICAgICAvLyBWZXJpZiBPVFAKICAgICAgICBpZigkcmVncy0+c3VjY2VzcyA9PSB0cnVlKSB7CiAgICAgICAgICAgIG90cDoKICAgICAgICAgICAgZWNobyAiXGVbOTNtWytdIElucHV0IE9UUCA6ICI7CiAgICAgICAgICAgICRvdHAgPSB0cmltKGZnZXRzKFNURElOKSk7CiAgICAgICAgICAgICRkYXRhMiA9ICd7ImNsaWVudF9uYW1lIjoiZ29qZWs6Y29uczphbmRyb2lkIiwiZGF0YSI6eyJvdHAiOiInIC4gJG90cCAuICciLCJvdHBfdG9rZW4iOiInIC4gJHJlZ3MtPmRhdGEtPm90cF90b2tlbiAuICcifSwiY2xpZW50X3NlY3JldCI6IicgLiAkc2VjcmV0IC4gJyJ9JzsKICAgICAgICAgICAgJHZlcmlmID0gY3VybCgnaHR0cHM6Ly9hcGkuZ29qZWthcGkuY29tL3Y1L2N1c3RvbWVycy9waG9uZS92ZXJpZnknLCAkZGF0YTIsICRoZWFkZXJzKTsKICAgICAgICAgICAgJHZlcmlmcyA9IGpzb25fZGVjb2RlKCR2ZXJpZlswXSk7CiAgICAgICAgICAgIGlmKCR2ZXJpZnMtPnN1Y2Nlc3MgPT0gdHJ1ZSkgewogICAgICAgICAgICAgICAgLy8gQ2xhaW0gVm91Y2hlcgogICAgICAgICAgICAgICAgJHRva2VuID0gJHZlcmlmcy0+ZGF0YS0+YWNjZXNzX3Rva2VuOwogICAgICAgICAgICAgICAgJGhlYWRlcnNbXSA9ICdBdXRob3JpemF0aW9uOiBCZWFyZXIgJy4kdG9rZW47CiAgICAgICAgICAgICAgICAkbGl2ZSA9ICJ0b2tlbnMiOwogICAgICAgICAgICAgICAgJGZvcGVuMSA9IGZvcGVuKCRsaXZlLCAiYSsiKTsKICAgICAgICAgICAgICAgICRmd3JpdGUxID0gZndyaXRlKCRmb3BlbjEsICJUT0tFTiA9PiAiLiR0b2tlbi4iIFxuIE5PTU9SID0+ICIuJG51bWJlci4iIFxuIik7CiAgICAgICAgICAgICAgICBmY2xvc2UoJGZvcGVuMSk7CiAgICAgICAgICAgICAgICBlY2hvICJUb2tlbiB+PiAiLiR0b2tlbi4iIFxuIjsKICAgICAgICAgICAgICAgIGVjaG8gIlxlWzkybVsrXSBUb2tlbiBUZXJzaW1wYW4gZGkgfj4gIi4kbGl2ZS4iIFxuXG4iOwoJCWVjaG8gIlxlWzk2bVsrXSBQcm9zZXMgUmVkZWVtIFZvY2hlciA6IEZPT0QgXG4iOwogICAgICAgICAgICAgICAgJGRhdGE2ID0gJ3sicHJvbW9fY29kZSI6IkdPRk9PRDAyMTEyMEEifSc7CiAgICAgICAgICAgICAgICAkY2xhaW00ID0gY3VybCgnaHR0cHM6Ly9hcGkuZ29qZWthcGkuY29tL2dvLXByb21vdGlvbnMvdjEvcHJvbW90aW9ucy9lbnJvbGxtZW50cycsICRkYXRhNywgJGhlYWRlcnMpOwogICAgICAgICAgICAgICAgJGNsYWltczQgPSBqc29uX2RlY29kZSgkY2xhaW00WzBdKTsKICAgICAgICAgICAgICAgIGlmKCRjbGFpbXM0LT5zdWNjZXNzID09IHRydWUpCiAgICAgICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlY2hvICJcZVs5Mm0gW+Kck10iLiRjbGFpbXM0LT5kYXRhLT5tZXNzYWdlOwogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlY2hvICJcZVs5MW0gW8OXXSBHYWdhbCBDbGFpbSBWb3VjZXIgISI7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBzbGVlcCg1KTsKICAgICAgICAgICAgICAgIGVjaG8gIlxuIjsKICAgICAgICAgICAgICAgIGVjaG8gIlxlWzk2bVsrXSBQcm9zZXMgUmVkZWVtIFZvY2hlciA6IEFZT0NPQkFHT0pFSyBcbiI7CiAgICAgICAgICAgICAgICAkZGF0YTcgPSAneyJwcm9tb19jb2RlIjoiQVlPQ09CQUdPSkVLIn0nOwogICAgICAgICAgICAgICAgJGNsYWltNCA9IGN1cmwoJ2h0dHBzOi8vYXBpLmdvamVrYXBpLmNvbS9nby1wcm9tb3Rpb25zL3YxL3Byb21vdGlvbnMvZW5yb2xsbWVudHMnLCAkZGF0YTcsICRoZWFkZXJzKTsKICAgICAgICAgICAgICAgICRjbGFpbXM0ID0ganNvbl9kZWNvZGUoJGNsYWltNFswXSk7CiAgICAgICAgICAgICAgICBpZigkY2xhaW1zNC0+c3VjY2VzcyA9PSB0cnVlKQogICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWNobyAiXGVbOTJtIFvinJNdIi4kY2xhaW1zNC0+ZGF0YS0+bWVzc2FnZTsKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWNobyAiXGVbOTFtIFvDl10gR2FnYWwgQ2xhaW0gVm91Y2VyICEiOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHNsZWVwKDUpOwogICAgICAgICAgICAgICAgICAgIGVjaG8gIlxuIjsKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICRjZWt2b3VjaGVyID0gcmVxdWVzdCgnL2dvcG9pbnRzL3YzL3dhbGxldC92b3VjaGVycz9saW1pdD0xMCZwYWdlPTEnLCAkdG9rZW4pOwogICAgICAgICAgICAgICAgJHRvdGFsID0gZmV0Y2hfdmFsdWUoJGNla3ZvdWNoZXIsJyJ0b3RhbF92b3VjaGVycyI6JywnLCcpOwogICAgICAgICAgICAgICAgJHZvdWNoZXIzID0gZ2V0U3RyMSgnInRpdGxlIjoiJywnIiwnLCRjZWt2b3VjaGVyLCIzIik7CiAgICAgICAgICAgICAgICAkdm91Y2hlcjEgPSBnZXRTdHIxKCcidGl0bGUiOiInLCciLCcsJGNla3ZvdWNoZXIsIjEiKTsKICAgICAgICAgICAgICAgICR2b3VjaGVyMiA9IGdldFN0cjEoJyJ0aXRsZSI6IicsJyIsJywkY2Vrdm91Y2hlciwiMiIpOwogICAgICAgICAgICAgICAgJHZvdWNoZXI0ID0gZ2V0U3RyMSgnInRpdGxlIjoiJywnIiwnLCRjZWt2b3VjaGVyLCI0Iik7CiAgICAgICAgICAgICAgICAkdm91Y2hlcjUgPSBnZXRTdHIxKCcidGl0bGUiOiInLCciLCcsJGNla3ZvdWNoZXIsIjUiKTsKICAgICAgICAgICAgICAgICR2b3VjaGVyNiA9IGdldFN0cjEoJyJ0aXRsZSI6IicsJyIsJywkY2Vrdm91Y2hlciwiNiIpOwogICAgICAgICAgICAgICAgJHZvdWNoZXI3ID0gZ2V0U3RyMSgnInRpdGxlIjoiJywnIiwnLCRjZWt2b3VjaGVyLCI3Iik7CiAgICAgICAgICAgICAgICAkdm91Y2hlcjggPSBnZXRTdHIxKCcidGl0bGUiOiInLCciLCcsJGNla3ZvdWNoZXIsIjgiKTsKCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgJGV4cGlyZWQxID0gZ2V0U3RyMSgnImV4cGlyeV9kYXRlIjoiJywnIicsJGNla3ZvdWNoZXIsJzEnKTsKICAgICAgICAgICAgICAgICRleHBpcmVkMiA9IGdldFN0cjEoJyJleHBpcnlfZGF0ZSI6IicsJyInLCRjZWt2b3VjaGVyLCcyJyk7CiAgICAgICAgICAgICAgICAkZXhwaXJlZDMgPSBnZXRTdHIxKCciZXhwaXJ5X2RhdGUiOiInLCciJywkY2Vrdm91Y2hlciwnMycpOwogICAgICAgICAgICAgICAgJGV4cGlyZWQ0ID0gZ2V0U3RyMSgnImV4cGlyeV9kYXRlIjoiJywnIicsJGNla3ZvdWNoZXIsJzQnKTsKICAgICAgICAgICAgICAgICRleHBpcmVkNSA9IGdldFN0cjEoJyJleHBpcnlfZGF0ZSI6IicsJyInLCRjZWt2b3VjaGVyLCc1Jyk7CiAgICAgICAgICAgICAgICAkZXhwaXJlZDYgPSBnZXRTdHIxKCciZXhwaXJ5X2RhdGUiOiInLCciJywkY2Vrdm91Y2hlciwnNicpOwogICAgICAgICAgICAgICAgJGV4cGlyZWQ3ID0gZ2V0U3RyMSgnImV4cGlyeV9kYXRlIjoiJywnIicsJGNla3ZvdWNoZXIsJzcnKTsKICAgICAgICAgICAgICAgICRleHBpcmVkOCA9IGdldFN0cjEoJyJleHBpcnlfZGF0ZSI6IicsJyInLCRjZWt2b3VjaGVyLCc4Jyk7CiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGVjaG8gIlxuIi5jb2xvcigieWVsbG93IiwiIV0gVG90YWwgdm91Y2hlciAiLiR0b3RhbC4iIDogIik7CiAgICAgICAgICAgICAgICBlY2hvICJcbiIuY29sb3IoImdyZWVuIiwiMV0gIi4kdm91Y2hlcjEpOwogICAgICAgICAgICAgICAgZWNobyAiXG4iLmNvbG9yKCJyZWQiLCIgRVhQIH4+ICIuJGV4cGlyZWQxKTsKICAgICAgICAgICAgICAgIGVjaG8gIlxuIi5jb2xvcigiZ3JlZW4iLCIyXSAiLiR2b3VjaGVyMik7CiAgICAgICAgICAgICAgICBlY2hvICJcbiIuY29sb3IoInJlZCIsIiBFWFAgfj4gIi4kZXhwaXJlZDIpOwogICAgICAgICAgICAgICAgZWNobyAiXG4iLmNvbG9yKCJncmVlbiIsIjNdICIuJHZvdWNoZXIzKTsKICAgICAgICAgICAgICAgIGVjaG8gIlxuIi5jb2xvcigicmVkIiwiIEVYUCB+PiAiLiRleHBpcmVkMyk7CiAgICAgICAgICAgICAgICBlY2hvICJcbiIuY29sb3IoImdyZWVuIiwiNF0gIi4kdm91Y2hlcjQpOwogICAgICAgICAgICAgICAgZWNobyAiXG4iLmNvbG9yKCJyZWQiLCIgRVhQIH4+ICIuJGV4cGlyZWQ0KTsKICAgICAgICAgICAgICAgIGVjaG8gIlxuIi5jb2xvcigiZ3JlZW4iLCI1XSAiLiR2b3VjaGVyNSk7CiAgICAgICAgICAgICAgICBlY2hvICJcbiIuY29sb3IoInJlZCIsIiBFWFAgfj4gIi4kZXhwaXJlZDUpOwogICAgICAgICAgICAgICAgZWNobyAiXG4iLmNvbG9yKCJncmVlbiIsIjZdICIuJHZvdWNoZXI2KTsKICAgICAgICAgICAgICAgIGVjaG8gIlxuIi5jb2xvcigicmVkIiwiIEVYUCB+PiAiLiRleHBpcmVkNik7CiAgICAgICAgICAgICAgICBlY2hvICJcbiIuY29sb3IoImdyZWVuIiwiN10gIi4kdm91Y2hlcjcpOwogICAgICAgICAgICAgICAgZWNobyAiXG4iLmNvbG9yKCJyZWQiLCIgRVhQIH4+ICIuJGV4cGlyZWQ3KTsKICAgICAgICAgICAgICAgIGVjaG8gIlxuIi5jb2xvcigiZ3JlZW4iLCI4XSAiLiR2b3VjaGVyOCk7CiAgICAgICAgICAgICAgICBlY2hvICJcbiIuY29sb3IoInJlZCIsIiBFWFAgfj4gIi4kZXhwaXJlZDgpOwogICAgICAgICAgICAgICAgZWNobyJcbiI7Cgp9ZWxzZQogICAgewogICAgICAgIGVjaG8gY29sb3IoInJlZCIsIlvDl10gT3RwIHlhbmcgYW5kYSBpbnB1dCBzYWxhaCIpOwogICAgICAgIGVjaG8iXG49PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09XG5cbiI7CiAgICAgICAgZWNobyBjb2xvcigieWVsbG93IiwiWyFdIFNpbGFoa2FuIGlucHV0IGtlbWJhbGlcbiIpOwogICAgICAgIGdvdG8gb3RwOwogICAgfQogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgfSBlbHNlCiAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICBlY2hvIGNvbG9yKCJyZWQiLCJbw5ddIE5vbW9yIHN1ZGFoIHRlcmVnaXN0cmFzaSIpOwogICAgICAgICAgICAgICAgICAgICAgICBlY2hvIlxuPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PVxuXG4iOwogICAgICAgICAgICAgICAgICAgICAgICBlY2hvIGNvbG9yKCJ5ZWxsb3ciLCJbIV0gU2lsYWhrYW4gcmVnaXN0cmFzaSBrZW1iYWxpXG4iKTsKICAgICAgICAgICAgICAgICAgICAgICAgZ290byB1bGFuZzsKICAgICAgICAgICAgICAgICAgICB9ICAgCgoKCgpmdW5jdGlvbiByZXF1ZXN0KCR1cmwsICR0b2tlbiA9IG51bGwsICRkYXRhID0gbnVsbCwgJHBpbiA9IG51bGwsICRvdHBzZXRwaW4gPSBudWxsLCAkdXVpZCA9IG51bGwpCiAgICB7CgogICAgJGhlYWRlcltdID0gIkhvc3Q6IGFwaS5nb2pla2FwaS5jb20iOwogICAgJGhlYWRlcltdID0gIlVzZXItQWdlbnQ6IG9raHR0cC8zLjEwLjAiOwogICAgJGhlYWRlcltdID0gIkFjY2VwdDogYXBwbGljYXRpb24vanNvbiI7CiAgICAkaGVhZGVyW10gPSAiQWNjZXB0LUxhbmd1YWdlOiBpZC1JRCI7CiAgICAkaGVhZGVyW10gPSAiQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PVVURi04IjsKICAgICRoZWFkZXJbXSA9ICJYLUFwcFZlcnNpb246IDMuMzAuMiI7CiAgICAkaGVhZGVyW10gPSAiWC1VbmlxdWVJZDogIi50aW1lKCkuIjU3Ii5tdF9yYW5kKDEwMDAsOTk5OSk7CiAgICAkaGVhZGVyW10gPSAiQ29ubmVjdGlvbjoga2VlcC1hbGl2ZSI7CiAgICAkaGVhZGVyW10gPSAiWC1Vc2VyLUxvY2FsZTogaWRfSUQiOwogICAgJGhlYWRlcltdID0gIlgtTG9jYXRpb246IC02LjQwNTgyMSwxMDYuMDY0MTkzIjsKICAgICRoZWFkZXJbXSA9ICJYLUxvY2F0aW9uLUFjY3VyYWN5OiAzLjAiOwogICAgaWYgKCRwaW4pOgogICAgJGhlYWRlcltdID0gInBpbjogJHBpbiI7CiAgICAgICAgZW5kaWY7CiAgICBpZiAoJHRva2VuKToKICAgICRoZWFkZXJbXSA9ICJBdXRob3JpemF0aW9uOiBCZWFyZXIgJHRva2VuIjsKICAgIGVuZGlmOwogICAgaWYgKCRvdHBzZXRwaW4pOgogICAgJGhlYWRlcltdID0gIm90cDogJG90cHNldHBpbiI7CiAgICBlbmRpZjsKICAgIGlmICgkdXVpZCk6CiAgICAkaGVhZGVyW10gPSAiVXNlci11dWlkOiAkdXVpZCI7CiAgICBlbmRpZjsKICAgICRjID0gY3VybF9pbml0KCJodHRwczovL2FwaS5nb2pla2FwaS5jb20iLiR1cmwpOwogICAgICAgIGN1cmxfc2V0b3B0KCRjLCBDVVJMT1BUX0ZPTExPV0xPQ0FUSU9OLCB0cnVlKTsKICAgICAgICBjdXJsX3NldG9wdCgkYywgQ1VSTE9QVF9TU0xfVkVSSUZZUEVFUiwgZmFsc2UpOwogICAgICAgIGlmICgkZGF0YSk6CiAgICAgICAgY3VybF9zZXRvcHQoJGMsIENVUkxPUFRfUE9TVEZJRUxEUywgJGRhdGEpOwogICAgICAgIGN1cmxfc2V0b3B0KCRjLCBDVVJMT1BUX1BPU1QsIHRydWUpOwogICAgICAgIGVuZGlmOwogICAgICAgIGN1cmxfc2V0b3B0KCRjLCBDVVJMT1BUX1NTTF9WRVJJRllIT1NULCAwKTsKICAgICAgICBjdXJsX3NldG9wdCgkYywgQ1VSTE9QVF9SRVRVUk5UUkFOU0ZFUiwgMSk7CiAgICAgICAgY3VybF9zZXRvcHQoJGMsIENVUkxPUFRfSEVBREVSLCB0cnVlKTsKICAgICAgICBjdXJsX3NldG9wdCgkYywgQ1VSTE9QVF9IVFRQSEVBREVSLCAkaGVhZGVyKTsKICAgICAgICAkcmVzcG9uc2UgPSBjdXJsX2V4ZWMoJGMpOwogICAgICAgICRodHRwY29kZSA9IGN1cmxfZ2V0aW5mbygkYyk7CiAgICAgICAgaWYgKCEkaHR0cGNvZGUpCiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICBlbHNlIHsKICAgICAgICAgICAgJGhlYWRlciA9IHN1YnN0cigkcmVzcG9uc2UsIDAsIGN1cmxfZ2V0aW5mbygkYywgQ1VSTElORk9fSEVBREVSX1NJWkUpKTsKICAgICAgICAgICAgJGJvZHkgICA9IHN1YnN0cigkcmVzcG9uc2UsIGN1cmxfZ2V0aW5mbygkYywgQ1VSTElORk9fSEVBREVSX1NJWkUpKTsKICAgICAgICB9CiAgICAgICAgJGpzb24gPSBqc29uX2RlY29kZSgkYm9keSwgdHJ1ZSk7CiAgICAgICAgcmV0dXJuICRib2R5OwogICAgfQoKZnVuY3Rpb24gZ2V0U3RyKCRhLCRiLCRjKQogICAgewogICAgICAgICRhID0gQGV4cGxvZGUoJGEsJGMpWzFdOwogICAgICAgIHJldHVybiBAZXhwbG9kZSgkYiwkYSlbMF07CiAgICB9CgpmdW5jdGlvbiBnZXRTdHIxKCRhLCRiLCRjLCRkKQogICAgewogICAgICAgICAgICAkYSA9IEBleHBsb2RlKCRhLCRjKVskZF07CiAgICAgICAgICAgIHJldHVybiBAZXhwbG9kZSgkYiwkYSlbMF07CiAgICB9CgpmdW5jdGlvbiBjb2xvcigkY29sb3IgPSAiZGVmYXVsdCIgLCAkdGV4dCkKICAgIHsKICAgICAgICAkYXJyYXlDb2xvciA9IGFycmF5KAogICAgICAgICAgICAnZ3JleScgICAgICA9PiAnMTszMCcsCiAgICAgICAgICAgICdyZWQnICAgICAgID0+ICcxOzMxJywKICAgICAgICAgICAgJ2dyZWVuJyAgICAgPT4gJzE7MzInLAogICAgICAgICAgICAneWVsbG93JyAgICA9PiAnMTszMycsCiAgICAgICAgICAgICdibHVlJyAgICAgID0+ICcxOzM0JywKICAgICAgICAgICAgJ3B1cnBsZScgICAgPT4gJzE7MzUnLAogICAgICAgICAgICAnbmV2eScgICAgICA9PiAnMTszNicsCiAgICAgICAgICAgICd3aGl0ZScgICAgID0+ICcxOzAnLAogICAgICAgICk7ICAKICAgICAgICByZXR1cm4gIlwwMzNbIi4kYXJyYXlDb2xvclskY29sb3JdLiJtIi4kdGV4dC4iXDAzM1swbSI7CiAgICB9CgpmdW5jdGlvbiBmZXRjaF92YWx1ZSgkc3RyLCRmaW5kX3N0YXJ0LCRmaW5kX2VuZCkKICAgIHsKICAgICAgICAkc3RhcnQgPSBAc3RycG9zKCRzdHIsJGZpbmRfc3RhcnQpOwogICAgICAgIGlmICgkc3RhcnQgPT09IGZhbHNlKSB7CiAgICAgICAgICAgIHJldHVybiAiIjsKICAgICAgICB9CiAgICAgICAgJGxlbmd0aCA9IHN0cmxlbigkZmluZF9zdGFydCk7CiAgICAgICAgJGVuZCAgICA9IHN0cnBvcyhzdWJzdHIoJHN0ciwkc3RhcnQgKyRsZW5ndGgpLCRmaW5kX2VuZCk7CiAgICAgICAgcmV0dXJuIHRyaW0oc3Vic3RyKCRzdHIsJHN0YXJ0ICskbGVuZ3RoLCRlbmQpKTsKICAgIH0KCmZ1bmN0aW9uIG5hbWEoKQogICAgewogICAgICAgICRjaCA9IGN1cmxfaW5pdCgpOwogICAgICAgIGN1cmxfc2V0b3B0KCRjaCwgQ1VSTE9QVF9VUkwsICJodHRwOi8vbmluamFuYW1lLmhvcnNlcmlkZXJzdXBwbHkuY29tL2luZG9uZXNpYW5fbmFtZS5waHAiKTsKICAgICAgICBjdXJsX3NldG9wdCgkY2gsIENVUkxPUFRfU1NMX1ZFUklGWVBFRVIsIDApOwogICAgICAgIGN1cmxfc2V0b3B0KCRjaCwgQ1VSTE9QVF9TU0xfVkVSSUZZSE9TVCwgMCk7CiAgICAgICAgY3VybF9zZXRvcHQoJGNoLCBDVVJMT1BUX1JFVFVSTlRSQU5TRkVSLCAxKTsKICAgICAgICBjdXJsX3NldG9wdCgkY2gsIENVUkxPUFRfRk9MTE9XTE9DQVRJT04sIDEpOwogICAgICAgICRleCA9IGN1cmxfZXhlYygkY2gpOwogICAgICAgIC8vICRyYW5kID0ganNvbl9kZWNvZGUoJHJuZF9nZXQsIHRydWUpOwogICAgICAgIHByZWdfbWF0Y2hfYWxsKCd+KCZidWxsOyAoLio/KTxici8+JmJ1bGw7ICl+JywgJGV4LCAkbmFtZSk7CiAgICAgICAgcmV0dXJuICRuYW1lWzJdW210X3JhbmQoMCwgMTQpIF07CiAgICB9CgpmdW5jdGlvbiBjdXJsKCR1cmwsICRmaWVsZHMgPSBudWxsLCAkaGVhZGVycyA9IG51bGwpCiAgICB7CiAgICAgICAgJGNoID0gY3VybF9pbml0KCk7CiAgICAgICAgY3VybF9zZXRvcHQoJGNoLCBDVVJMT1BUX1VSTCwgJHVybCk7CiAgICAgICAgY3VybF9zZXRvcHQoJGNoLCBDVVJMT1BUX1JFVFVSTlRSQU5TRkVSLCB0cnVlKTsKICAgICAgICBjdXJsX3NldG9wdCgkY2gsIENVUkxPUFRfRk9MTE9XTE9DQVRJT04sIHRydWUpOwogICAgICAgIGN1cmxfc2V0b3B0KCRjaCwgQ1VSTE9QVF9TU0xfVkVSSUZZUEVFUiwgZmFsc2UpOwogICAgICAgIGlmICgkZmllbGRzICE9PSBudWxsKSB7CiAgICAgICAgICAgIGN1cmxfc2V0b3B0KCRjaCwgQ1VSTE9QVF9QT1NULCAxKTsKICAgICAgICAgICAgY3VybF9zZXRvcHQoJGNoLCBDVVJMT1BUX1BPU1RGSUVMRFMsICRmaWVsZHMpOwogICAgICAgIH0KICAgICAgICBpZiAoJGhlYWRlcnMgIT09IG51bGwpIHsKICAgICAgICAgICAgY3VybF9zZXRvcHQoJGNoLCBDVVJMT1BUX0hUVFBIRUFERVIsICRoZWFkZXJzKTsKICAgICAgICB9CiAgICAgICAgJHJlc3VsdCAgID0gY3VybF9leGVjKCRjaCk7CiAgICAgICAgJGh0dHBjb2RlID0gY3VybF9nZXRpbmZvKCRjaCwgQ1VSTElORk9fSFRUUF9DT0RFKTsKICAgICAgICBjdXJsX2Nsb3NlKCRjaCk7CiAgICAgICAgCiAgICAgICAgcmV0dXJuIGFycmF5KAogICAgICAgICAgICAkcmVzdWx0LAogICAgICAgICAgICAkaHR0cGNvZGUKICAgICAgICApOwogICAgfQ==
+
+$secret = '83415d06-ec4e-11e6-a41b-6c40088ab51e';
+$headers = array();
+JGhlYWRlcnNbXSA9ICdDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24nOwokaGVhZGVyc1tdID0gJ1gtQXBwVmVyc2lvbjogMy4yNy4wJzsKJGhlYWRlcnNbXSA9ICJYLVVuaXF1ZWlkOiBhYzk0ZTVkMGU3ZjNmIi5yYW5kKDExMSw5OTkpOwokaGVhZGVyc1tdID0gJ1gtTG9jYXRpb246IC02LjIyNTk3NCwxMDYuODA5MjQ4Jzs=
+
+        echo "\n";
+        echo "\e[92m--------------------------------------------------\n";
+        echo "\e[92m|                  NDELESEP UYEE                 |\n";
+        echo "\e[92m|            Komunitas GOJEK SAMBAT              |\n";
+        echo "\e[92m|                  PRO AUTOCLAIM                 |\n";
+        echo "\e[92m--------------------------------------------------\n";
+        echo "\n";
+        ulang:
+        echo "\e[96m[+] Input Nomor HP : ";
+        $number = trim(fgets(STDIN));
+        $numbers = $number[0].$number[1];
+        $numberx = $number[5];
+        if($numbers == "08") { 
+            $number = str_replace("08","628",$number);
+        } elseif ($numberx == " ") {
+            $number = preg_replace("/[^0-9]/", "",$number);
+            $number = "1".$number;
+        }
+        $nama = nama();
+        $email = strtolower(str_replace(" ", "", $nama) . mt_rand(100,999) . "@gmail.com");
+        $data1 = '{"name":"' . $nama . '","email":"' . $email . '","phone":"+' . $number . '","signed_up_country":"ID"}';
+        $reg = curl('https://api.gojekapi.com/v5/customers', $data1, $headers);
+        $regs = json_decode($reg[0]);
+        // Verif OTP
+        if($regs->success == true) {
+            otp:
+            echo "\e[93m[+] Input OTP : ";
+            $otp = trim(fgets(STDIN));
+            $data2 = '{"client_name":"gojek:cons:android","data":{"otp":"' . $otp . '","otp_token":"' . $regs->data->otp_token . '"},"client_secret":"' . $secret . '"}';
+            $verif = curl('https://api.gojekapi.com/v5/customers/phone/verify', $data2, $headers);
+            $verifs = json_decode($verif[0]);
+            if($verifs->success == true) {
+                // Claim Voucher
+                $token = $verifs->data->access_token;
+                $headers[] = 'Authorization: Bearer '.$token;
+                $live = "tokens";
+                $fopen1 = fopen($live, "a+");
+                $fwrite1 = fwrite($fopen1, "TOKEN => ".$token." \n NOMOR => ".$number." \n");
+                fclose($fopen1);
+                echo "Token ~> ".$token." \n";
+                echo "\e[92m[+] Token Tersimpan di ~> ".$live." \n\n";
+		echo "\e[96m[+] Proses Redeem Vocher : FOOD \n";
+                $data6 = '{"promo_code":"GOFOOD021120A"}';
+                $claim4 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data7, $headers);
+                $claims4 = json_decode($claim4[0]);
+                if($claims4->success == true)
+                        {
+                                echo "\e[92m [✓]".$claims4->data->message;
+                        } else
+                            {
+                                echo "\e[91m [×] Gagal Claim Voucer !";
+                            }
+                sleep(5);
+                echo "\n";
+                echo "\e[96m[+] Proses Redeem Vocher : AYOCOBAGOJEK \n";
+                $data7 = '{"promo_code":"AYOCOBAGOJEK"}';
+                $claim4 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data7, $headers);
+                $claims4 = json_decode($claim4[0]);
+                if($claims4->success == true)
+                        {
+                                echo "\e[92m [✓]".$claims4->data->message;
+                        } else
+                            {
+                                echo "\e[91m [×] Gagal Claim Voucer !";
+                            }
+                    sleep(5);
+                    echo "\n";
+                    
+                $cekvoucher = request('/gopoints/v3/wallet/vouchers?limit=10&page=1', $token);
+                $total = fetch_value($cekvoucher,'"total_vouchers":',',');
+                $voucher3 = getStr1('"title":"','",',$cekvoucher,"3");
+                $voucher1 = getStr1('"title":"','",',$cekvoucher,"1");
+                $voucher2 = getStr1('"title":"','",',$cekvoucher,"2");
+                $voucher4 = getStr1('"title":"','",',$cekvoucher,"4");
+                $voucher5 = getStr1('"title":"','",',$cekvoucher,"5");
+                $voucher6 = getStr1('"title":"','",',$cekvoucher,"6");
+                $voucher7 = getStr1('"title":"','",',$cekvoucher,"7");
+                $voucher8 = getStr1('"title":"','",',$cekvoucher,"8");
+
+                
+                
+                $expired1 = getStr1('"expiry_date":"','"',$cekvoucher,'1');
+                $expired2 = getStr1('"expiry_date":"','"',$cekvoucher,'2');
+                $expired3 = getStr1('"expiry_date":"','"',$cekvoucher,'3');
+                $expired4 = getStr1('"expiry_date":"','"',$cekvoucher,'4');
+                $expired5 = getStr1('"expiry_date":"','"',$cekvoucher,'5');
+                $expired6 = getStr1('"expiry_date":"','"',$cekvoucher,'6');
+                $expired7 = getStr1('"expiry_date":"','"',$cekvoucher,'7');
+                $expired8 = getStr1('"expiry_date":"','"',$cekvoucher,'8');
+                    
+                
+                echo "\n".color("yellow","!] Total voucher ".$total." : ");
+                echo "\n".color("green","1] ".$voucher1);
+                echo "\n".color("red"," EXP ~> ".$expired1);
+                echo "\n".color("green","2] ".$voucher2);
+                echo "\n".color("red"," EXP ~> ".$expired2);
+                echo "\n".color("green","3] ".$voucher3);
+                echo "\n".color("red"," EXP ~> ".$expired3);
+                echo "\n".color("green","4] ".$voucher4);
+                echo "\n".color("red"," EXP ~> ".$expired4);
+                echo "\n".color("green","5] ".$voucher5);
+                echo "\n".color("red"," EXP ~> ".$expired5);
+                echo "\n".color("green","6] ".$voucher6);
+                echo "\n".color("red"," EXP ~> ".$expired6);
+                echo "\n".color("green","7] ".$voucher7);
+                echo "\n".color("red"," EXP ~> ".$expired7);
+                echo "\n".color("green","8] ".$voucher8);
+                echo "\n".color("red"," EXP ~> ".$expired8);
+                echo"\n";
+
+}else
+    {
+        echo color("red","[×] Otp yang anda input salah");
+        echo"\n==================================\n\n";
+        echo color("yellow","[!] Silahkan input kembali\n");
+        goto otp;
+    }
+                    
+                } else
+                    {
+                        echo color("red","[×] Nomor sudah teregistrasi");
+                        echo"\n==================================\n\n";
+                        echo color("yellow","[!] Silahkan registrasi kembali\n");
+                        goto ulang;
+                    }   
+
+
+
+
+function request($url, $token = null, $data = null, $pin = null, $otpsetpin = null, $uuid = null)
+    {
+
+    $header[] = "Host: api.gojekapi.com";
+    $header[] = "User-Agent: okhttp/3.10.0";
+    $header[] = "Accept: application/json";
+    $header[] = "Accept-Language: id-ID";
+    $header[] = "Content-Type: application/json; charset=UTF-8";
+    $header[] = "X-AppVersion: 3.30.2";
+    $header[] = "X-UniqueId: ".time()."57".mt_rand(1000,9999);
+    $header[] = "Connection: keep-alive";
+    $header[] = "X-User-Locale: id_ID";
+    $header[] = "X-Location: -6.405821,106.064193";
+    $header[] = "X-Location-Accuracy: 3.0";
+    if ($pin):
+    $header[] = "pin: $pin";
+        endif;
+    if ($token):
+    $header[] = "Authorization: Bearer $token";
+    endif;
+    if ($otpsetpin):
+    $header[] = "otp: $otpsetpin";
+    endif;
+    if ($uuid):
+    $header[] = "User-uuid: $uuid";
+    endif;
+    $c = curl_init("https://api.gojekapi.com".$url);
+        curl_setopt($c, CURLOPT_FOLLOWLOCATION, true);
+        curl_setopt($c, CURLOPT_SSL_VERIFYPEER, false);
+        if ($data):
+        curl_setopt($c, CURLOPT_POSTFIELDS, $data);
+        curl_setopt($c, CURLOPT_POST, true);
+        endif;
+        curl_setopt($c, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($c, CURLOPT_HEADER, true);
+        curl_setopt($c, CURLOPT_HTTPHEADER, $header);
+        $response = curl_exec($c);
+        $httpcode = curl_getinfo($c);
+        if (!$httpcode)
+            return false;
+        else {
+            $header = substr($response, 0, curl_getinfo($c, CURLINFO_HEADER_SIZE));
+            $body   = substr($response, curl_getinfo($c, CURLINFO_HEADER_SIZE));
+        }
+        $json = json_decode($body, true);
+        return $body;
+    }
+
+function getStr($a,$b,$c)
+    {
+        $a = @explode($a,$c)[1];
+        return @explode($b,$a)[0];
+    }
+
+function getStr1($a,$b,$c,$d)
+    {
+            $a = @explode($a,$c)[$d];
+            return @explode($b,$a)[0];
+    }
+
+function color($color = "default" , $text)
+    {
+        $arrayColor = array(
+            'grey'      => '1;30',
+            'red'       => '1;31',
+            'green'     => '1;32',
+            'yellow'    => '1;33',
+            'blue'      => '1;34',
+            'purple'    => '1;35',
+            'nevy'      => '1;36',
+            'white'     => '1;0',
+        );  
+        return "\033[".$arrayColor[$color]."m".$text."\033[0m";
+    }
+
+function fetch_value($str,$find_start,$find_end)
+    {
+        $start = @strpos($str,$find_start);
+        if ($start === false) {
+            return "";
+        }
+        $length = strlen($find_start);
+        $end    = strpos(substr($str,$start +$length),$find_end);
+        return trim(substr($str,$start +$length,$end));
+    }
+
+function nama()
+    {
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, "http://ninjaname.horseridersupply.com/indonesian_name.php");
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+        $ex = curl_exec($ch);
+        // $rand = json_decode($rnd_get, true);
+        preg_match_all('~(&bull; (.*?)<br/>&bull; )~', $ex, $name);
+        return $name[2][mt_rand(0, 14) ];
+    }
+
+function curl($url, $fields = null, $headers = null)
+    {
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        if ($fields !== null) {
+            curl_setopt($ch, CURLOPT_POST, 1);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $fields);
+        }
+        if ($headers !== null) {
+            curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+        }
+        $result   = curl_exec($ch);
+        $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+        
+        return array(
+            $result,
+            $httpcode
+        );
+    }
