@@ -5,7 +5,7 @@ $headers = array();
 $headers[] = 'Content-Type: application/json';
 $headers[] = 'X-AppVersion: 3.27.0';
 $headers[] = "X-Uniqueid: ac94e5d0e7f3f".rand(111,999);
-$headers[] = 'X-Location: -6.224144, 106.782831';
+$headers[] = 'X-Location: -6.405821,106.064193';
 
         echo "\n";
         echo "\e[92m--------------------------------------------------\n";
@@ -50,7 +50,18 @@ $headers[] = 'X-Location: -6.224144, 106.782831';
                 echo "\e[92m[+] Token Tersimpan di ~> ".$live." \n\n";
 				sleep(5);
                 echo "\n";
-                echo "VOC FOOD KLAIM DEWE BOSS!";
+                echo "\e[96m[!] Proses Redeem Vocher : GOFOOD021120A \n";
+                $data6 = '{"promo_code":"GOFOOD021120A"}';
+                $claim3 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data6, $headers);
+                $claims3 = json_decode($claim3[0]);
+                if($claims3->success == true)
+                        {
+                                echo "\e[92m [✓]".$claims3->data->message;
+                        } else
+                            {
+                                echo "\e[91m [×] Gagal Claim Voucer !";
+
+                            };
                 sleep(5);
                 echo "\n";
                 echo "\e[96m[+] Proses Redeem Vocher : AYOCOBAGOJEK \n";
@@ -140,7 +151,7 @@ function request($url, $token = null, $data = null, $pin = null, $otpsetpin = nu
     $header[] = "X-UniqueId: ".time()."57".mt_rand(1000,9999);
     $header[] = "Connection: keep-alive";
     $header[] = "X-User-Locale: id_ID";
-    $header[] = "X-Location: -6.225974, 106.809248";
+    $header[] = "X-Location: -6.225974,106.809248";
     $header[] = "X-Location-Accuracy: 3.0";
     if ($pin):
     $header[] = "pin: $pin";
