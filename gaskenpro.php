@@ -50,18 +50,7 @@ $headers[] = 'X-Location: -6.405821,106.064193';
                 echo "\e[92m[+] Token Tersimpan di ~> ".$live." \n\n";
 				sleep(5);
                 echo "\n";
-                echo "\e[96m[!] Proses Redeem Vocher : GOFOOD021120A \n";
-                $data6 = '{"promo_code":"GOFOOD021120A"}';
-                $claim3 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data6, $headers);
-                $claims3 = json_decode($claim3[0]);
-                if($claims3->success == true)
-                        {
-                                echo "\e[92m [✓]".$claims3->data->message;
-                        } else
-                            {
-                                echo "\e[91m [×] Gagal Claim Voucer !";
-
-                            };
+                echo "VOC FOOD KLAIM DEWE BOSS!";
                 sleep(5);
                 echo "\n";
                 echo "\e[96m[+] Proses Redeem Vocher : AYOCOBAGOJEK \n";
