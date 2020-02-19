@@ -2,7 +2,10 @@
 
 $secret = '83415d06-ec4e-11e6-a41b-6c40088ab51e';
 $headers = array();
-JGhlYWRlcnNbXSA9ICdDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24nOwokaGVhZGVyc1tdID0gJ1gtQXBwVmVyc2lvbjogMy4yNy4wJzsKJGhlYWRlcnNbXSA9ICJYLVVuaXF1ZWlkOiBhYzk0ZTVkMGU3ZjNmIi5yYW5kKDExMSw5OTkpOwokaGVhZGVyc1tdID0gJ1gtTG9jYXRpb246IC02LjIyNTk3NCwxMDYuODA5MjQ4Jzs=
+$headers[] = 'Content-Type: application/json';
+$headers[] = 'X-AppVersion: 3.27.0';
+$headers[] = "X-Uniqueid: ac94e5d0e7f3f".rand(111,999);
+$headers[] = 'X-Location: -6.225974,106.809248';
 
         echo "\n";
         echo "\e[92m--------------------------------------------------\n";
